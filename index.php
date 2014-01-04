@@ -25,10 +25,9 @@ Ciaran McNally - 58079978</p>
 <ul>
 <li><a href="Design.php">Design Description</a></li>
 <li><a href="rpliy-docs/">Generated Docs</a></li>
-<li><a href="umlclass.php">UML class diagram</a></li>
-<li><a href="umlsequence.php">UML Sequence Diagram.</a></li>
-<li><a href="link to github">The code</a>
+<li><a href="umlclass.php">Naive UML class diagram (Ignoring libraries)</a></li>
+<li><a href="https://github.com/maK-/rpliy">The code</a>
 <li><a href="sample.php">Sample run</a>
-<li><a href="github README">README</a>
+<li><a href="https://github.com/maK-/rpliy/blob/master/README">README</a>
 </ul>
 </html>
