@@ -1,0 +1,22 @@
+$def with (host,port)
+
+<!DOCTYPE html>
+<html><head>
+<title>rpliy</title>
+<link rel="stylesheet" type="text/css" href="/css"/></head>
+<div id="contain">
+<a href="http://$:host:$:port/"><img src="rpi.png" width="43" height="50" /></a>
+<h3>rpliy - Raspberry Pi Python Player</h3><hr>
+<form action="http://$:host:$:port/Search" method="GET">
+<table>
+<tr>
+<td colspan="2"><a href="http://$:host:$:port/playlist">View Playlist!</a></td>
+</tr>
+<tr>
+<td>Search:</td>
+<td><input name="s"></td>
+</tr>
+</form>
+</div>
+<script src="script.js"></script>
+</html>

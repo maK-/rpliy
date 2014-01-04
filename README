@@ -1,0 +1,12 @@
+*List of Python Package Dependencies*
+	-web.py (http://webpy.org )							apt-get install python-webpy
+	-pygame (http://www.pygame.org/news.html)					apt-get install python-pygame
+	-ID3 (http://id3-py.sourceforge.net/)
+	-Python MySQLDB (http://mysql-python.sourceforge.net/MySQLdb.html) 		apt-get install python-mysqldb
+
+
+---Usage Example---
+1. Connect raspberry pi to network (via wireless or ethernet)
+2. plug in your usb containing mp3s
+3. mount -t vfat /dev/sda1 /media/myusb
+4. python rpliy.py /media/myusb
